@@ -6,5 +6,5 @@ if (isset($_POST['password'])) {
 
 $hash = password_hash($mdp, PASSWORD_DEFAULT);
 
-echo "$hash<br>";
+echo $hash;
 ?>
